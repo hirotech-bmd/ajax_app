@@ -17,7 +17,11 @@ function memo() {
       const HTML = `
         <div class="post" data-id=${item.id}>
           <div class="post-date">
+<<<<<<< Updated upstream
             投稿日時:${item.created_at}
+=======
+            投稿日時：${item.created_at}
+>>>>>>> Stashed changes
           </div>
           <div class="post-content">
           ${item.content}
@@ -28,5 +32,10 @@ function memo() {
     };
     e.preventDefault();
   });
+<<<<<<< Updated upstream
 }
 window.addEventListener("load", memo);
+=======
+ }
+ window.addEventListener("load", memo);
+>>>>>>> Stashed changes
